@@ -1,0 +1,76 @@
+body {
+  background: black;
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+  width: 320px;
+
+  color: #707070;
+  font-weight: 700;
+  margin: 10px;
+  background-image: linear-gradient(to right, #fffbd5, #b20a2c);
+}
+span {
+  font-size: 20px;
+  color: white;
+}
+.passwordLength_container {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.passwordLength {
+  font-size: 20px;
+}
+#passwordLength {
+  width: 100%;
+  color: red;
+}
+.generate_button {
+  width: 100%;
+  padding: 12px;
+  color: white;
+  background: #2a8b8b;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 12px;
+  font-weight: 700;
+}
+.include_letter_margin {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+.heading_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copy_button {
+  border: none;
+  background-color: #24263b;
+}
+
+.pwd-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  padding: 0px 15px;
+}
+.passwordLength_paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
